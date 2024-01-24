@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="./src/images/favicon.png"
+      type="image/png"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <!-- JAVASCRIPT -->
+    <script defer src="./src/js/main.js"></script>
+    <title>GTA V</title>
+    <!-- CDN FONTS -->
+    <link href="https://fonts.cdnfonts.com/css/chalet" rel="stylesheet">
+    <!-- GOOGLE TAG (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-TJQ2XJZPTD"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-TJQ2XJZPTD");
+    </script>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div>
+        <img src="./src/images/logo-rockstar.svg" alt="Logo Rockstar Games" />
+        <hr />
+        <img src="./src/images/logo-gta.svg" alt="Logo GTA V" />
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#comprar">Comprar</a></li>
+          <li><a href="https://support.rockstargames.com/categories/200013306" target="_blank">Suporte</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="home" id="home">
+        <img class="imagem-fundo" src="./src/images/bg-main.png" alt="Imagem de GTA" />
+        <div class="informacoes">
+            <div class="lista-de-jogos">
+                <img src="./src/images/logo-gta-v.svg" alt="Logo GTA V" />
+                <img src="./src/images/logo-gta-online.svg" alt="Logo GTA Online" />
+            </div>
+            <h1 class="titulo">Já disponíveis para Playstation 5 e Xbox Series X|S</h1>
+            <p class="texto">Experimente os fenômenos do entretenimento Grand Theft Auto V e GTA Online.</p>
+            <a class="" href="#comprar">Compre Já</a>
+        </div>
+    </main>
+    <section class="compre-ja" id="comprar">
+        <h2 class="titulo">Compre já</h2>
+        <div class="cartoes"> <!-- extra para mais jogos -->
+            <div class="cartao">
+                <img class="capa-do-jogo" src="./src/images/gta5.jpg" alt="Capa do jogo GTA V" />
+                
+                <div class="informacoes">
+                    <h3>Grand Theft Auto V</h3>
+                    <p>Inclui <strong>Modo História do GTAV</strong> e <strong>GTA Online</strong></p>
+                    <ul class="plataformas">
+                        <li>
+                            <img src="./src/images/logo-ps5.svg" alt="Logo Playstation 5" />
+                        </li>
+                        <li>
+                            <img src="./src/images/logo-xbox-series-s.svg" alt="Logo Xbox Series X|S" />
+                        </li>
+                        <li>
+                            <img src="./src/images/logo-ps4.svg" alt="Logo Xbox Series X|S" />
+                        </li>
+                        <li>
+                            <img src="./src/images/logo-xbox-one.svg" alt="Logo Xbox One" />
+                        </li>
+                        <li>
+                            <img src="./src/images/logo-pc.svg" alt="Logo PC" />
+                        </li>
+                    </ul>
+                </div>
+
+                <button class="btn-plataforma">Selecione a plataforma
+                    <ul class="plataformas">
+                        <li>
+                            <img src="./src/images/logo-ps5.svg" alt="Logo Playstation 5" />
+                        </li>
+                        <li>
+                            <img src="./src/images/logo-xbox-series-s.svg" alt="Logo Xbox Series X e S" />
+                        </li>
+                        <li>
+                            <img src="./src/images/logo-ps4.svg" alt="Logo Xbox Series X e S" />
+                        </li>
+                        <li>
+                            <img src="./src/images/logo-xbox-one.svg" alt="Logo Xbox One" />
+                        </li>
+                        <li>
+                            <img src="./src/images/logo-pc.svg" alt="Logo PC">
+                        </li />
+                    </ul>
+                </button>
+
+            </div>
+        </div> <!-- extra para mais jogos -->
+    </section>
+  </body>
+</html>
