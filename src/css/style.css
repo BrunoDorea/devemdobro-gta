@@ -243,3 +243,26 @@ body {
 .compre-ja .btn-plataforma .plataformas li:nth-child(5):hover {
     background-color: #fcaf17;
 }
+
+/* Banner Trailer GTA 6 */
+.banner {
+    height: 2rem;
+    background: linear-gradient(90deg,#64759d,#826092 40%,#e39986);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+.banner a {
+    text-transform: uppercase;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    justify-content: center;
+    letter-spacing: .25em;
+    line-height: 120%;
+    text-transform: uppercase;
+    width: 100%;
+}
