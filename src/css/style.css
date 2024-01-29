@@ -270,7 +270,16 @@ body {
 
 @media (max-width: 658px) {
     .banner {
-        display: none;
+        /* display: none; */
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 20px 0;
+        gap: 0.9375rem;
+    }
+
+    .banner a {
+        font-size: 0.625rem;
     }
 } 
 
