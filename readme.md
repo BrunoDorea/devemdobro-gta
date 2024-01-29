@@ -1,9 +1,8 @@
-# Dev em Dobro - 13ª Semana do Zero ao Programador Contratado
+# Dev em Dobro - 14ª Semana do Zero ao Programador Contratado
 
 [![wakatime](https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/018d3427-6bd1-4b63-aca8-f93f377c828b.svg)](https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/018d3427-6bd1-4b63-aca8-f93f377c828b)
 
-[![GitHub Pages](https://img.shields.io/static/v1?style=for-the-badge&message=GitHub+Pages&color=222222&logo=GitHub+Pages&logoColor=FFFFFF&label=)](https://brunodorea.github.io/)
-[![Vercel](https://img.shields.io/static/v1?style=for-the-badge&message=Vercel&color=000000&logo=Vercel&logoColor=FFFFFF&label=)](#)
+[![GitHub Pages](https://img.shields.io/static/v1?style=for-the-badge&message=GitHub+Pages&color=222222&logo=GitHub+Pages&logoColor=FFFFFF&label=)](https://brunodorea.github.io/devemdobro-gta/)
 
 ## 💼 Sobre o projeto
 
@@ -11,7 +10,7 @@ Este repositório foi criado para o projeto desenvolvido na Semana do Zero ao Pr
 
 ## ✅ Objetivo
 
-Landing page de GTA VI.
+Landing page de GTA V.
 
 ## 💻 Tecnologias e Ferramentas
 
