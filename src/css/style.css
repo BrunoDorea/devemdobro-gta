@@ -157,13 +157,13 @@ body {
     align-items: center;
     background-color: #000;
     width: 50%;
-    border-radius: 10px;
-    padding: 80px;
-    gap: 40px;
+    border-radius: 0.625rem;
+    padding: 5rem;
+    gap: 2.5rem;
 }
 
 .compre-ja .capa-do-jogo {
-    width: 270px;
+    width: 16.875rem;
 }
 
 .compre-ja .informacoes {
@@ -204,6 +204,7 @@ body {
 
 .compre-ja .btn-plataforma .plataformas.ativo {
     display: flex;
+    opacity: 1;
 }
 
 .compre-ja .btn-plataforma .plataformas li:nth-child(1){
@@ -258,11 +259,85 @@ body {
     text-transform: uppercase;
     cursor: pointer;
     display: flex;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 500;
     justify-content: center;
     letter-spacing: .25em;
     line-height: 120%;
     text-transform: uppercase;
     width: 100%;
+}
+
+@media (max-width: 658px) {
+    .banner {
+        display: none;
+    }
+} 
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .cabecalho {
+        justify-content: center;
+        flex-direction: column;
+        padding: 3.125rem 0;
+        gap: 0.9375rem;
+    }
+
+    .cabecalho .menu li a {
+        padding: 0.9375rem;
+    }
+
+    .home .informacoes {
+        padding: 1.875rem;
+    }
+
+    .home .informacoes img {
+        max-width: 6.25rem;
+    }
+
+    .home .informacoes .titulo {
+        font-size: 2.5rem;
+    }
+
+    .compre-ja .cartao {
+        width: 75%;
+    }
+} 
+
+@media (max-width: 768px) {
+    .compre-ja {
+        padding: 1.875rem;
+    }
+
+    .compre-ja .cartao {
+        width: 100%;
+        padding: 5rem 1.25rem;
+    }
+
+    .compre-ja .informacoes h3 {
+        font-size: 36px;
+    }
+
+    .compre-ja .informacoes .plataformas {
+        flex-direction: column;
+    }
+
+    .btn-plataforma {
+        margin-top: 0.9375rem;
+        padding: 0.9375rem;
+    }
+
+    .btn-comprar {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    main::after {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.4) 100%, transparent 65%);
+    }
+
+    .compre-ja .cartao .capa-do-jogo {
+        max-width: 80%;
+    }
 }
